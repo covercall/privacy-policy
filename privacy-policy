@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Privacy Policy - Stocks and Cover Call ETF Tracker</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #222; }
+    h1 { font-size: 24px; }
+    h2 { font-size: 18px; margin-top: 30px; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy for Stocks and Cover Call ETF Tracker</h1>
+  <p><em>Last updated: August 10, 2026</em></p>
+
+  <p>This Privacy Policy explains what information this app collects, how it is used, and how it is protected.</p>
+
+  <h2>Information We Collect</h2>
+  <ul>
+    <li><strong>Account information:</strong> When you register, we collect your email address and a securely hashed password, managed through our authentication provider (Supabase).</li>
+    <li><strong>PIN:</strong> You may set an optional 4-digit PIN for app-level access. Only a secure hash of your PIN is stored — the actual PIN is never stored or visible to us.</li>
+    <li><strong>Financial data you enter:</strong> This includes stock/ETF ticker symbols, buy/sell transaction records (shares, price, date), dividend distribution records (including Return of Capital percentages), cash balance entries, and any notes you add.</li>
+    <li><strong>Watchlist data:</strong> Tickers you choose to add to your personal watchlist.</li>
+  </ul>
+
+  <h2>How We Use Your Information</h2>
+  <ul>
+    <li>To provide core app functionality: tracking your portfolio, calculating cost basis, dividends, cash balances, and generating reports.</li>
+    <li>To display market data (prices, dividend announcements, general financial news) relevant to tickers you track.</li>
+    <li>We do not sell, rent, or share your personal financial data with third parties for advertising or marketing purposes.</li>
+  </ul>
+
+  <h2>Third-Party Services</h2>
+  <p>This app uses the following third-party services to function:</p>
+  <ul>
+    <li><strong>Supabase</strong> — for authentication and secure data storage.</li>
+    <li><strong>Yahoo Finance</strong> (public data endpoints) — for stock/ETF price and dividend data.</li>
+    <li><strong>NewsAPI.org</strong> — for general market news headlines.</li>
+    <li><strong>FRED (Federal Reserve Economic Data)</strong> — for public economic indicators (CPI, PPI, etc.).</li>
+  </ul>
+  <p>These services may receive limited data (such as ticker symbols) necessary to retrieve the relevant market information, but do not receive your personal account or financial transaction data.</p>
+
+  <h2>Data Storage & Security</h2>
+  <p>Your data is stored securely using Supabase's infrastructure, with row-level security ensuring only you can access your own financial records. Passwords and PINs are stored as secure cryptographic hashes, never in plain text.</p>
+
+  <h2>Data Retention & Deletion</h2>
+  <p>You may request deletion of your account and associated data at any time by contacting us at xmr.angryx@gmail.com. Your data will be permanently removed from our systems upon request.</p>
+
+  <h2>Children's Privacy</h2>
+  <p>This app is not directed at children under 13, and we do not knowingly collect data from children under 13.</p>
+
+  <h2>Disclaimer — Not Financial Advice</h2>
+  <p>This app is provided for informational and personal record-keeping purposes only. It is <strong>not</strong> intended to provide financial, investment, tax, or legal advice, and nothing within the app should be construed as a recommendation to buy, sell, or hold any security.</p>
+  <ul>
+    <li>We are <strong>not licensed financial advisors</strong>, and the app's developers make no representations regarding the suitability of any investment strategy for your individual circumstances.</li>
+    <li>Market data, dividend information, Return of Capital (ROC) percentages, economic indicators, and news displayed in this app are sourced from third-party providers and <strong>may be delayed, incomplete, or inaccurate</strong>. We do not guarantee the accuracy, completeness, or timeliness of any data shown.</li>
+    <li>Calculations such as cost basis, adjusted cost per share, realized/unrealized gains, and yield estimates are provided for convenience only and <strong>should not be relied upon for tax filing or investment decisions</strong> without independent verification.</li>
+    <li>You are solely responsible for your own investment decisions. <strong>Always conduct your own research and consult a licensed financial advisor or tax professional</strong> before making financial decisions.</li>
+    <li>To the fullest extent permitted by law, the developers of this app disclaim all liability for any losses, damages, or tax consequences arising from your use of, or reliance on, information provided by this app.</li>
+  </ul>
+
+  <h2>Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+
+  <h2>Contact Us</h2>
+  <p>If you have questions about this Privacy Policy, please contact us at: <strong>xmr.angryx@gmail.com</strong></p>
+</body>
+</html>
